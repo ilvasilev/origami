@@ -3,6 +3,7 @@ import Header from './components/header'
 import Aside from './components/aside'
 import Posts from './components/posts'
 import styles from './app.module.css'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Aside />
     <Posts />
     </div>
+    <Footer />
     </div>
   );
 }
